@@ -1,4 +1,4 @@
-# mid-autumn
+# mid-autumn-ui
 
 ![](https://tiger-typora.oss-cn-shenzhen.aliyuncs.com/img/mid-autumn.jpg?versionId=CAEQRRiBgMDj6pab4BciIDNiNDk1MTZiMjY2OTQwNDM5OWIyOTE2NzI1MzNjMjE4)
 
@@ -20,37 +20,27 @@
 >
 > 译文：2006年5月20日，国务院列入首批国家级非物质文化遗产名录。
 
-## Project setup
+## Install component library
 
 ```
-yarn install
+yarn add mid-autumn
 ```
 
-### Compiles and hot-reloads for development
+## Introduction and use, main.js
 
 ```
-yarn serve
+import { createApp } from 'vue'
+import App from './App.vue'
+
+import midAutumnUI from 'mid-autumn'
+import 'mid-autumn/lib/mid-autumn.css'
+
+createApp(App).use(midAutumnUI).mount('#app')
 ```
 
-### Compiles and minifies for production
-
+## App.vue
 ```
-yarn build
-```
-
-### Generate common components
-```
-yarn build:mid-autumn
-```
-
-### Publish to NPM
-```
-npm login
-npm publish
-```
-
-### Lints and fixes files
-
-```
-yarn lint
+<template>
+  <mid-button>mid autumn ui</mid-button>
+</template>
 ```
