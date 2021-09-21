@@ -38,6 +38,17 @@ yarn serve
 yarn build
 ```
 
+### Generate common components
+```
+yarn build:mid-autumn
+```
+
+### Publish to NPM
+```
+npm login
+npm publish
+```
+
 ### Lints and fixes files
 
 ```
