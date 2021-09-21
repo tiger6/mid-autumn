@@ -6,11 +6,11 @@ const components = {
   miaHello
 }
 
-function install (vue) {
+function install (Vue) {
   const keys = Object.keys(components)
   keys.forEach(name => {
     const component = components[name]
-    vue.component(component.name || name, component)
+    Vue.component(component.name || name, component)
   })
 }
 

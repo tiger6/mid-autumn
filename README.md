@@ -41,6 +41,6 @@ createApp(App).use(midAutumnUI).mount('#app')
 ## App.vue
 ```
 <template>
-  <mid-button>mid autumn ui</mid-button>
+  <mia-button>mid autumn ui</mia-button>
 </template>
 ```

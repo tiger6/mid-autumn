@@ -1,6 +1,6 @@
 {
   "name": "mid-autumn",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "private": false,
   "main": "lib/mid-autumn.umd.min.js",
   "scripts": {
